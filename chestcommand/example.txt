@@ -1,0 +1,17 @@
+sand:
+  MATERIAL: sand
+  POSITION-X: 4
+  POSITION-Y: 1
+  NAME: '&aVende 64 de Arena'
+  LORE:
+    - '&9Vendes stack de Arena.'
+    - '&9a cambio de 2$.'
+    - ''
+    - 'Current money: {money}'
+  REQUIRED-ITEMS:
+    - sand, 64
+  ACTIONS:
+    - 'tell: &aYou have been paid 3$'
+    - 'give-money: 3'
+  KEEP-OPEN: true
+

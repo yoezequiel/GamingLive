@@ -1,6 +1,7 @@
 body{
     background-image: url(https://phantom-marca.unidadeditorial.es/6557062822ae9d8fcfb57a14f4fcb803/resize/1320/f/jpg/assets/multimedia/imagenes/2022/05/09/16521305266949.jpg);
     background-size: 100%;
+    align-items: center;
 }
 
 #title{
@@ -13,52 +14,49 @@ body{
 }
 
 .container{
-    color:white
+    color:white;
+    font-size: 30px;
 }
 
 #ip {
-    background-color: #6c6a6a;
-    font-size: 30px;
     text-align: center;
-    border-radius: 60px;
 }
 
 #ip a{
-    text-decoration: none;
     color: cyan;
-}
-a{
-    text-decoration: none;
-    color: white;
 }
 
 #tops{
-    background-color: #6c6a6a;
-    font-size: 25px;
     text-align: center;
-    border-radius: 60px;
-}
-#normas{
-    background-color: #6c6a6a;
-    font-size: 25px;
-    text-align: center;
-    border-radius: 60px;
 }
 #comandos{
-    background-color: #6c6a6a;
-    font-size: 25px;
     text-align: center;
-    border-radius: 60px;
+}
+#normas{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    background-color: #6c6a6a;
+    border-radius: 0.5125rem;  
 }
 
 footer{
-    margin-top: 23%;
+    margin-top: 20%;
     text-align: center;
 }
 
 #discord{
     font-size: 60px;
 }
+#discord a{
+    background-color: blue;
+    border-radius: 30px;
+}
+
 #whatsapp{
     font-size: 25px;
     padding-left: 250px;
