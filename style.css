@@ -13,7 +13,6 @@ body{
 }
 
 .container{
-    color:white;
     font-size: 25px;
 }
 
@@ -22,7 +21,7 @@ body{
 }
 
 #ip a{
-    color: cyan;
+    color: blue;
 }
 
 #tops{
@@ -37,10 +36,10 @@ body{
 
 a{
     text-decoration: none;
-    color: white;
-    text-decoration: none;
-    background-color: #6c6a6a;
-    border-radius: 0.5125rem;  
+    padding: 0.325rem;
+    background-color: greenyellow;
+    border-radius: 0.825rem;
+    font-weight: bold;
 }
 
 footer{
@@ -51,9 +50,10 @@ footer{
 #discord{
     font-size: 60px;
 }
+
 #discord a{
-    background-color: blue;
     border-radius: 30px;
+    background-color: white;
 }
 
 #whatsapp{
