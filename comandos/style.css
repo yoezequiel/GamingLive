@@ -23,3 +23,12 @@ big{
 p{
     font-size: 30px;
 }
+.nav a{
+    text-decoration: underline red;
+    font-size: 2.2rem;
+    padding: 5.75rem;
+}
+
+.nav{
+    text-align: center;
+}
